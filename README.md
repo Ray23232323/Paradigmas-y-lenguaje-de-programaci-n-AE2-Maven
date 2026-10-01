@@ -29,10 +29,54 @@ Creación de ⁠OfertaSinItemsException⁠ para prevenir y capturar de forma con
 5. Persistencia e Infraestructura (⁠com.example.Repositorio⁠):
  Implementación de ⁠FacturaRepository⁠ aplicando el Principio de Responsabilidad Única (SRP) para escribir y leer los resúmenes en un archivo físico de disco (⁠datos_resumenes.txt⁠).
 
+Estructura del proyecto:
+
+Paradigmas-y-lenguaje-de-programaci-n-AE2-Maven/
+├── pom.xml
+├── README.md
+└── demo/
+    └── src/
+        ├── main/
+        │   └── java/
+        │       └── com/
+        │           └── example/
+        │               ├── Main.java
+        │               ├── Departamento.java
+        │               ├── Personas/
+        │               │   ├── Persona.java
+        │               │   ├── Cliente.java
+        │               │   ├── Empleado.java
+        │               │   └── Proveedor.java
+        │               ├── Catalogo/
+        │               │   ├── Producto.java
+        │               │   ├── Servicio.java
+        │               │   └── ProductoPorNombreComparator.java
+        │               ├── Transacciones/
+        │               │   ├── Facturable.java
+        │               │   ├── Imprimible.java
+        │               │   ├── OfertaComercial.java
+        │               │   ├── OfertaSinItemsException.java
+        │               │   ├── Factura.java
+        │               │   └── Pago.java
+        │               └── Repositorio/
+        │                   └── FacturaRepository.java
+        └── test/
+
+
+
  Compilación y Ejecución con Maven
+
 Para compilar y ejecutar el proyecto mediante la consola de comandos de Windows (CMD o Terminal):
-(Alternativamente, dentro de Visual Studio Code se puede ejecutar haciendo clic derecho sobre la clase ⁠Main.java⁠ y seleccionando Run).
- 
+
+A) Posicionarse en el directorio del proyecto Maven (⁠demo⁠): cd demo
+
+B) Limpiar y compilar el proyecto con Maven: mvn clean compile
+
+C) Ejecutar la clase principal mediante Maven: mvn exec:java -Dexec.mainClass="com.example.Main"
+
+(Alternativamente, dentro de Visual Studio Code, se puede ejecutar haciendo clic derecho sobre la clase ⁠Main.java⁠ y seleccionando Run).
+
+
  Salida Esperada en Consola
 Al ejecutar el programa, el ⁠Main⁠ integrador realiza la demostración secuencial de todos los requerimientos:
  1. Polimorfismo: Recorrido de una lista ⁠List<Persona>⁠ resolviendo dinámicamente la subclase concreta (⁠Cliente⁠, ⁠Empleado⁠, ⁠Proveedor⁠).
