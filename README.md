@@ -8,6 +8,7 @@ Estudiante: Máximo Lautaro Márquez
  
  
  Descripción del Proyecto
+
 Este repositorio contiene la evolución de la aplicación TP1 hacia la Actividad Evaluativa 2 (AE2), adaptada y estructurada como un proyecto Maven.
 El objetivo principal de esta entrega es consolidar el diseño orientado a objetos en Java mediante la aplicación rigurosa de principios de abstracción, polimorfismo, uso de múltiples interfaces, criterios de ordenamiento avanzados, excepciones del dominio y persistencia desacoplada con archivos en disco.
  
