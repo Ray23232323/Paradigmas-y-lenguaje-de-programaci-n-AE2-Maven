@@ -29,41 +29,6 @@ Creación de ⁠OfertaSinItemsException⁠ para prevenir y capturar de forma con
 5. Persistencia e Infraestructura (⁠com.example.Repositorio⁠):
  Implementación de ⁠FacturaRepository⁠ aplicando el Principio de Responsabilidad Única (SRP) para escribir y leer los resúmenes en un archivo físico de disco (⁠datos_resumenes.txt⁠).
 
-Estructura del proyecto:
-
-Paradigmas-y-lenguaje-de-programaci-n-AE2-Maven/
-├── pom.xml
-├── README.md
-└── demo/
-    └── src/
-        ├── main/
-        │   └── java/
-        │       └── com/
-        │           └── example/
-        │               ├── Main.java
-        │               ├── Departamento.java
-        │               ├── Personas/
-        │               │   ├── Persona.java
-        │               │   ├── Cliente.java
-        │               │   ├── Empleado.java
-        │               │   └── Proveedor.java
-        │               ├── Catalogo/
-        │               │   ├── Producto.java
-        │               │   ├── Servicio.java
-        │               │   └── ProductoPorNombreComparator.java
-        │               ├── Transacciones/
-        │               │   ├── Facturable.java
-        │               │   ├── Imprimible.java
-        │               │   ├── OfertaComercial.java
-        │               │   ├── OfertaSinItemsException.java
-        │               │   ├── Factura.java
-        │               │   └── Pago.java
-        │               └── Repositorio/
-        │                   └── FacturaRepository.java
-        └── test/
-
-
-
  Compilación y Ejecución con Maven
 
 Para compilar y ejecutar el proyecto mediante la consola de comandos de Windows (CMD o Terminal):
