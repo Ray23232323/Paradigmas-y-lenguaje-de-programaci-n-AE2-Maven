@@ -2,8 +2,11 @@
 
 
 TP1  AE2 - Evolución de Arquitectura Orientada a Objetos (Maven Project)
+
 Asignatura: Paradigmas y Lenguajes de Programación II
+
 Carrera: Ingeniería en Sistemas de Información
+
 Estudiante: Máximo Lautaro Márquez
  
  
